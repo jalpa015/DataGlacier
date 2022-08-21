@@ -849,7 +849,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_19_0.png)
+![png](EDA_MD/output_19_0.png)
 
 
 
@@ -872,7 +872,7 @@ plt.axes().set_ylabel('')
 
 
 
-![png](EDA MD/output_20_2.png)
+![png](EDA_MD/output_20_2.png)
 
 
 ## Profit
@@ -1252,7 +1252,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_27_0.png)
+![png](EDA_MD/output_27_0.png)
 
 
 
@@ -1262,7 +1262,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_28_0.png)
+![png](EDA_MD/output_28_0.png)
 
 
 
@@ -1574,7 +1574,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_31_0.png)
+![png](EDA_MD/output_31_0.png)
 
 
 
@@ -1872,7 +1872,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_35_0.png)
+![png](EDA_MD/output_35_0.png)
 
 
 ## Cost of Trip and Price Charged Comparison
@@ -2050,7 +2050,7 @@ plt.show()
 ```
 
 
-![png](EDA MD/output_38_0.png)
+![png](EDA_MD/output_38_0.png)
 
 
 
@@ -2214,7 +2214,7 @@ sb.catplot(x="Company", y="Cost of Trip", hue="Gender", kind="bar", data=df)
 
 
 
-![png](EDA MD/output_41_1.png)
+![png](EDA_MD/output_41_1.png)
 
 
 ## Price Charged vs Cost of Trip for both Cab Companies
@@ -2232,7 +2232,7 @@ sb.scatterplot(x="Price Charged", y="Cost of Trip", hue="Company", data=df, pale
 
 
 
-![png](EDA MD/output_43_1.png)
+![png](EDA_MD/output_43_1.png)
 
 
 
@@ -2248,7 +2248,7 @@ sb.scatterplot(x="Price Charged", y="Cost of Trip", data=yellowCab, color="#FFFA
 
 
 
-![png](EDA MD/output_44_1.png)
+![png](EDA_MD/output_44_1.png)
 
 
 
@@ -2269,7 +2269,7 @@ fig.set_size_inches(25,15)
 
 
 
-![png](EDA MD/output_45_1.png)
+![png](EDA_MD/output_45_1.png)
 
 
 
@@ -2330,7 +2330,7 @@ ax.yaxis.set_ticks(np.arange(100, 800, 20))
 
 
 
-![png](EDA MD/output_46_2.png)
+![png](EDA_MD/output_46_2.png)
 
 
 
@@ -2341,7 +2341,7 @@ fig.set_size_inches(15,15)
 ```
 
 
-![png](EDA MD/output_47_0.png)
+![png](EDA_MD/output_47_0.png)
 
 
 
@@ -2353,7 +2353,7 @@ fig.set_size_inches(15,15)
 ```
 
 
-![png](EDA MD/output_48_0.png)
+![png](EDA_MD/output_48_0.png)
 
 
 ## Hypothesis
@@ -2371,7 +2371,7 @@ sb.pairplot(df, hue="Company")
 
 
 
-![png](EDA MD/output_50_1.png)
+![png](EDA_MD/output_50_1.png)
 
 
 ## Regression Hypothesis 
@@ -2384,7 +2384,7 @@ ax = sb.regplot(x="Price Charged", y="Profit", data=yellowCab, color="gold")
 ```
 
 
-![png](EDA MD/output_53_0.png)
+![png](EDA_MD/output_53_0.png)
 
 
 
@@ -2393,7 +2393,7 @@ ax = sb.regplot(x="Price Charged", y="Profit", data=pinkCab, color="pink")
 ```
 
 
-![png](EDA MD/output_54_0.png)
+![png](EDA_MD/output_54_0.png)
 
 
 ### Regression Hypothesis for Price charged and Cost of Trip for both Cab company
@@ -2404,7 +2404,7 @@ ax = sb.regplot(x="Price Charged", y="Cost of Trip", data=yellowCab, color="gold
 ```
 
 
-![png](./EDA MD/output_56_0.png)
+![png](./EDA_MD/output_56_0.png)
 
 
 
@@ -2413,7 +2413,7 @@ ax = sb.regplot(x="Price Charged", y="Cost of Trip", data=pinkCab, color="pink")
 ```
 
 
-![png](EDA MD/output_57_0.png)
+![png](EDA_MD/output_57_0.png)
 
 
 ## CONCLUSION

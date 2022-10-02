@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: UserAchievments
+file_name: UserAchievments
+table_name: UserAchievments
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Id
+    - UserId
+    - AchievementType
+    - Tier
+    - TierAchievementDate
+    - Points
+    - CurrentRanking
+    - HighestRanking
+    - TotalGold
+    
